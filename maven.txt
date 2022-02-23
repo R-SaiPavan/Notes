@@ -4,3 +4,19 @@ Maven helps the developer to create a java-based project more easily.
 Accessibility of new feature created or added in Maven can be easily added to a project in Maven configuration.
 It increases the performance of project and building process.
 The main feature of Maven is that it can download the project dependency libraries automatically.
+
+how to create maven project?
+Here we can create the maven project with two types .
+->using terminal
+->using eclipse
+
+*By using terminal there is a command to create a maven project that is 
+
+#command
+
+C:\MVN>mvn archetype:generate   #here archetype is the pulgin and generate is the goal ,this create the project with parameters
+-DgroupId = com.package        #here you can write the package name
+-DartifactId = firstprogram     #here filename
+-DarchetypeArtifactId = maven-archetype-quickstart #here type of archetype
+-DinteractiveMode = false #this should be initiale false
+
