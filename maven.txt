@@ -20,3 +20,25 @@ C:\MVN>mvn archetype:generate   #here archetype is the pulgin and generate is th
 -DarchetypeArtifactId = maven-archetype-quickstart #here type of archetype
 -DinteractiveMode = false #this should be initiale false
 
+commands that are used in the maven project?
+
+Mvn –version: This command helps us in knowing the current version of Maven that is installed
+
+Creating a project: To create a project using MVN architecture below maven command should be used.
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart 
+-DarchetypeVersion=1.4 -DinteractiveMode=false
+
+MVN package: This command is used to execute all Maven phases until the package phase. It does the job of compiling, 
+verifying and building the project.It builds the jar file and places it in the specified folder under the specified project.
+
+mvn clean install: This maven command helps in executing a clean build life cycle and installs build phase in the default build cycle.
+This build life cycles may have its build phases and inside each build, there are different build goals.
+Also, this ensures that the build target is being removed for a new build and adds the clean target.
+
+mvn compile: This command is used to compile the source code. It also compiles the classes that are stored at a particular target or class.
+
+mvn test: Maven also provides the facility of unit testing particular codes. It runs the tests using suitable
+
+
+
+
